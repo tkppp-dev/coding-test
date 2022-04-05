@@ -1,5 +1,7 @@
 package programmers.level1
 
+// https://programmers.co.kr/learn/courses/30/lessons/77484
+
 fun solution(lottos: IntArray, win_nums: IntArray): IntArray {
     var matched = 0
     var erased = 0
