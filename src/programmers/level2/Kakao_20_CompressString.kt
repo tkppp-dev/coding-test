@@ -50,3 +50,4 @@ fun main(){
     val s = "ababcdcdababcdcd"
     println(solution(s))
 }
+
