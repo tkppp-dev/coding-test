@@ -1,24 +1,14 @@
 package programmers
 
-fun solution(v: Array<IntArray>): IntArray {
-    val answer = mutableListOf<Int>()
-    v.groupBy { it[0] }.forEach() {
-        if(it.value.size == 1) answer.add(it.key)
+fun test(): Int{
+    for(i in 0..2){
+        for(j in 3..5){
+            if(j == 4) return 4
+        }
     }
-
-    v.groupBy { it[1] }.forEach(){
-        if(it.value.size == 1) answer.add(it.key)
-    }
-
-    return answer.toIntArray()
+    return 0
 }
 
 fun main(){
-    val a = 3
-    for(i in 0 until a) {
-        for(j in 0 until i+1) {
-            print("*")
-        }
-        println("")
-    }
+    println(test())
 }
