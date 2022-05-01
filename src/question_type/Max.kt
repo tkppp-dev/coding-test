@@ -11,6 +11,5 @@ fun main(){
     val maxOf = list.maxOf { it.value }
     val maxBy = list.maxByOrNull { it.value }
 
-
     println("$maxOf $maxBy")
 }
